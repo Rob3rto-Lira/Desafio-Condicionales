@@ -1,24 +1,37 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .button-nav {
-    background-color: lightgrey;
-    border: none;
-    color: black;
-    transition: 0.5s ease-out;
+  background-color: lightgrey;
+  border: none;
+  color: black;
+  transition: 0.3s ease-in;
 }
 
 .button-nav:hover {
-    background-color: grey;
+  background-color: grey;
 }
-
 
 .img-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
+
+.sticker-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stickers-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 50vh;
+}
+
