@@ -8,8 +8,8 @@ confirm.addEventListener('click', result);
 
 function result() {
     if (Number(sticker1.value) + Number(sticker2.value) + Number(sticker3.value) > 10) {
-        respuesta.innerHTML = 'Elige menos de 10!';
+        respuesta.innerHTML = 'Llevas demasiado stickers!';
     } else {
-        respuesta.innerHTML = `llevas ${Number(sticker1.value) + Number(sticker2.value) + Number(sticker3.value)} stickers`
+        respuesta.innerHTML = `Llevas ${Number(sticker1.value) + Number(sticker2.value) + Number(sticker3.value)} stickers`
     }
 }
